@@ -1,0 +1,27 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Python and Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.venv/
+venv/
+
+# Uploaded and generated files
+Backend/media/
+Backend/uploads/
+staticfiles/
+
+# Frontend dependencies and build output
+Frontend/node_modules/
+Frontend/dist/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
