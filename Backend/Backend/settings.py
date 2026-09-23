@@ -52,6 +52,10 @@ INSTALLED_APPS = [
     'media_upload'
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://frontend-iota-two-hz41op248h.vercel.app",
+]
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
